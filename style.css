@@ -907,3 +907,49 @@ h1{
 .social-icons a:hover {
   color: darkgoldenrod;
 }
+
+.featuresSection {
+    height: 500px;
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgb(228, 198, 123);
+}
+
+.featuresSection h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.featuresContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 4%;
+}
+
+.featureCard {
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0 2px 10px rgba(228, 157, 26, 0.1);
+  transition: transform 0.3s;
+}
+
+.featureCard img {
+  width: 100px;
+  height: 70px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.featureCard:hover {
+  transform: scale(1.05);
+}
+.featureCard h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
